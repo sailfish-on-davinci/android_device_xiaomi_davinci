@@ -86,3 +86,7 @@ PRODUCT_COPY_FILES += \
 # WiFi
 PRODUCT_PACKAGES += \
     wifi-mac-generator
+
+# Hack for sfos
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/libsdedrm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdedrm.so
