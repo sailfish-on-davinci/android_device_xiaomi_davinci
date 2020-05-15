@@ -39,8 +39,5 @@ TARGET_INIT_VENDOR_LIB := libinit_davinci
 TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
 
 
-# droidmedia
-MINIMEDIA_AUDIOPOLICYSERVICE_ENABLE := 1
-
 # Inherit from the proprietary version
 -include vendor/xiaomi/davinci/BoardConfigVendor.mk
