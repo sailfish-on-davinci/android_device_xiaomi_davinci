@@ -89,4 +89,8 @@ PRODUCT_PACKAGES += \
 
 # Hack for sfos
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/libsdedrm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdedrm.so
+    $(LOCAL_PATH)/hacklibs/libsdedrm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdedrm.so \
+    $(LOCAL_PATH)/hacklibs/libhdrdynamic.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdrdynamic.so \
+    $(LOCAL_PATH)/hacklibs/libhdrdynamic_64.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdrdynamic.so \
+    $(LOCAL_PATH)/hacklibs/libhdrdynamicootf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdrdynamicootf.so \
+    $(LOCAL_PATH)/hacklibs/libhdrdynamicootf_64.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdrdynamicootf.so
