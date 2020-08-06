@@ -94,3 +94,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/hacklibs/libhdrdynamic_64.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdrdynamic.so \
     $(LOCAL_PATH)/hacklibs/libhdrdynamicootf.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhdrdynamicootf.so \
     $(LOCAL_PATH)/hacklibs/libhdrdynamicootf_64.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libhdrdynamicootf.so
+
+PRODUCT_PACKAGES += \
+    verity_key
